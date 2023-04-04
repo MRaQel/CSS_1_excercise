@@ -1,0 +1,57 @@
+/*  Selector {}
+Property:
+Value;  */
+/*Aby skomentować CSS również należy użyć skrótu Ctrl+/ jednak wtedy tworzy się inne oznaczenie komentarza*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(image.webp);
+	background-size: cover;
+}
+
+h2 {
+	color: #D4916A;
+}
+
+p {
+	color: darkblue;
+	text-decoration: underline; 
+	line-height: 30px;
+	font-style: italic;
+	font-size: 80%;
+	font-family: 'Gruppo', cursive;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	color: #D4916A;
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:last-child {
+	border: 5px dashed green;
+}
+
+.active:first-child {
+	color: black;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
+}
